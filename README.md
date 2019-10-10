@@ -1,7 +1,8 @@
+[![Actions Status](https://github.com/itggot-TE4/TE4/workflows/tests/badge.svg)](https://github.com/itggot-TE4/Yala/actions)
 # TE4
 Template project for projects at TE4
 
-Replace this with a description for the project.
+Replace this with a description for the project. Remember to update the above template badge.
 
 ## Project management setup
 - Use projects tab for adding kanban boards for issue tracking and bug triage board.
