@@ -9,7 +9,7 @@ Replace this with a description for the project. Remember to update the above te
 - Use issues and labels for assigning points to tasks and categorizing tasks.
 
 ## Code review
-Code review is the process that happens after a new pull request is created and before the changes are merged to develop. Use the following guidelines as a reference: https://github.com/thoughtbot/guides/tree/master/code-review
+Code review is the process that happens after a new pull request is created and before the changes are merged to develop. It's a powerful tool for knowledge transfer. Use the following guidelines as a reference: https://github.com/thoughtbot/guides/tree/master/code-review
 
 ## Testing
 Every developer has heard of how useful tests are but to actually think in a TDD manner is something entirely different. Consider the different types of tests: https://blog.cleancoder.com/uncle-bob/2017/05/05/TestDefinitions.html
