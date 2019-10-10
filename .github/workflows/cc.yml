@@ -1,7 +1,9 @@
 # this is an example on how to setup CI to generate CC and upload to codeclimate
 name: CI
 
-on: [push]
+on:
+  schedule:
+  - cron: "0 0 * * *"
 
 jobs:
   cc:
