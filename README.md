@@ -26,11 +26,12 @@ There are several tools that can be integrated into the CI pipeline. One of thos
 Another tool that can be used in the CI pipeline is [Semmle QL](https://help.semmle.com/QL/learn-ql/) for automatic security checks on new pull requests.
 
 ## Refactoring
-Refactoring is the process of improving the design of existing code without altering its external behavior. It's a critical step in the process, but often overlooked. This should be part of a strong code review culture on any serious project.
+Refactoring is the process of improving the design of existing code without altering its external behavior. It's a critical step in the process, but often overlooked <sup>2</sup>. This should be part of a strong code review culture on any serious project.
 
 ## Git flow
 - Don't push to master, use a develop branch
 - https://nvie.com/posts/a-successful-git-branching-model/
 - https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow
 
-<sup>1</sup>: Taken from the [ioscpp guidelines](https://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md).
+<sup>1</sup>: [ioscpp guidelines](https://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md).  
+<sup>2</sup>: https://thoughtbot.com/playbook/developing/refactoring
