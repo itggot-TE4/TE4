@@ -1,9 +1,3 @@
----
-name: Feature
-about: General PR template
-
----
-
 # Pull Request Template
 
 ## What issue did you implement or fix?
