@@ -8,5 +8,5 @@ title: Project ''{{ issue.repo.name }}'' boilerplate
 - [ ] Setup [Code climate](https://codeclimate.com/quality/) for automatic CQ checks.
 - [ ] Setup [LGTM](https://lgtm.com/dashboard) for continuous security analysis.
 - [ ] Created boilerplate code, added linting and setup test environment with CC.
-- [ ] Added badges for CI, CQ, CA to README.md file.
+- [ ] Added badges for test status, code quality and security analysis to README.md file.
 - [ ] Used [docsify.js](https://docsify.js.org) to create initial documentation from project description and build GitHub pages for documentation.
