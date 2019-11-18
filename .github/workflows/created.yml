@@ -9,8 +9,13 @@ jobs:
 
     steps:
       - uses: actions/checkout@master
+      - name: git ref
+        run: |
+          echo ${{ github.event.create.ref }}
+          echo ${{ github.ref }}
       - uses: JasonEtco/create-an-issue@master
-        if: github.event.create.ref == 'master'
+        echo: github.event.create.ref
+        if: github.event.create.ref == 'refs/heads/master'
         env: 
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
