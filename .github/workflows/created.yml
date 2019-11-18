@@ -12,9 +12,9 @@ jobs:
       - name: git ref
         run: |
           echo ${{ github.event.create.ref }}
-          echo ${{ github.ref }}
+          echo ${{ github.event }}
       - uses: JasonEtco/create-an-issue@master
-        if: github.event.create.ref == 'refs/heads/master'
+        if: github.event.ref == 'refs/heads/master'
         env: 
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
