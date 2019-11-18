@@ -1,0 +1,12 @@
+---
+title: Project ''{{ issue.repo.name }}'' boilerplate
+---
+- [ ] Setup project management boards for issue tracking.
+- [ ] Create develop branch and set default branch to develop in repository settings.
+- [ ] Discussed code style with team and provided style guidelines for this project in the wiki.
+- [ ] Updated README.md file to include proper description of project.
+- [ ] Setup [Code climate](https://codeclimate.com/quality/) for automatic CQ checks.
+- [ ] Setup [LGTM](https://lgtm.com/dashboard) for continuous security analysis.
+- [ ] Created boilerplate code, added linting and setup test environment with CC.
+- [ ] Added badges for CI, CQ, CA to README.md file.
+- [ ] Used [docsify.js](https://docsify.js.org) to create initial documentation from project description and build GitHub pages for documentation.

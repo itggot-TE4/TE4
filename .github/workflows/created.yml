@@ -1,0 +1,17 @@
+name: Created
+
+on:
+  create
+
+jobs:
+  created:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@master
+      - uses: JasonEtco/create-an-issue@master
+        if: github.event.create.ref == "master"
+        env: 
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          filename: .github/new_project_issue.md
