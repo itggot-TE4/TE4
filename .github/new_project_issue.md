@@ -1,9 +1,7 @@
 ---
-title: Project boilerplate
+title: Project {{ payload.repository.name }} boilerplate
 labels: enhancement
 ---
-## {{ issue.repo }} boilerplate
-
 Aha! It would seem it is time for a new project at TE4, but hold your coffee cup! At this point you know what software development really means. It is not only the process of turning ☕️ to 📦 but more about being able to utilize all the tools in your arsenal so you can :shipit: ASAP and with the best quality to the customer! 
 
 ## DoD:
