@@ -14,7 +14,6 @@ jobs:
           echo ${{ github.event.create.ref }}
           echo ${{ github.ref }}
       - uses: JasonEtco/create-an-issue@master
-        echo: github.event.create.ref
         if: github.event.create.ref == 'refs/heads/master'
         env: 
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
