@@ -10,7 +10,7 @@ jobs:
     steps:
       - uses: actions/checkout@master
       - uses: JasonEtco/create-an-issue@master
-        if: github.event.create.ref == "master"
+        if: github.event.create.ref == 'master'
         env: 
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
