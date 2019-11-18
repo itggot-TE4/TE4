@@ -1,7 +1,6 @@
 name: Created
 
-on:
-  create
+on: [create]
 
 jobs:
   created:
