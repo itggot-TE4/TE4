@@ -10,8 +10,9 @@ jobs:
       - uses: actions/checkout@master
       - name: git ref
         run: |
-          echo ${{ github.event.create.ref }}
+          echo ${{ github.event.ref }}
           echo ${{ github.event }}
+          echo ${{ github.ref }}
       - uses: JasonEtco/create-an-issue@master
         if: github.event.ref == 'refs/heads/master'
         env: 
