@@ -1,7 +1,5 @@
-# Pull Request Template
-
 ## What issue did you implement or fix?
-Fixed issue #1
+Fixed #1
 
 ## Summary
 - Fixed foobar in zoobar.
